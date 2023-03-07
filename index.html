@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IMC: Cálculo de Índice de Massa Corporal</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Tabela IMC</h1>
+    <br>
+    <p> <b>IMC</b></p>
+    <p>Menos do que 18,5</p>
+    <p>Entrei 18,5 e 24,9</p>
+    <p>Entre 25 e 29,9</p>
+    <p>Entre 30 e 24,9</p>
+    <p>Entre 35 e 39,9</p>
+    <p>Mais do que 40</p>
+    <br>
+    <h2>Calcule seu IMC</h2>
+<br>
+    <form action="" class="form" id="form">
+
+      <label for="input-peso">Peso:</label>
+      <input id="input-peso">
+<div class="valorPeso"></div>
+
+      <label for="input-altura">Altura:</label>
+      <input id="input-altura">
+<div class="valorAltura"></div>
+
+      <button type="submit">Calcular</button>
+    </form>
+
+    <div id="resultado" class="resultado"></div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
